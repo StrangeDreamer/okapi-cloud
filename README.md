@@ -41,7 +41,7 @@
     2. `mvn clean package` 打包项目及 Docker 镜像
     3. 在项目根目录下执行 `docker-compose up -d` 启动所有项目
 * 本地手动启动
-    1. 配置 rabbitmq
+    1. 配置 rabbitmq，并启动rabbitmq
     2. 修改 hosts 将主机名指向到本地   
        `127.0.0.1	registry config monitor rabbitmq auth-service`  
        或者修改各服务配置文件中的相应主机名为本地 ip

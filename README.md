@@ -87,6 +87,8 @@
 ### 链路跟踪明细
 ![zipkin](/screenshots/zipkin2.jpg)
 ### 服务依赖关系
+#### gateway,auth-service,svca-service,svcb-service->config注册，config server通过git维护，查找脚本路径在config-repo.
+#### config-repo对应[gateway网关zuul路径auth-service,svca-service,svcb-service]
 ![zipkin](/screenshots/zipkin3.jpg)
 ## RabbitMQ 监控
 Docker 启动访问 http://localhost:15673/ 默认账号 guest，密码 guest（本地 rabbit 管理系统默认端口15672）
